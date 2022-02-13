@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A509425327A4F540002BFF87 /* PokePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A509425227A4F540002BFF87 /* PokePlayer.swift */; };
+		A509425527A4F5E7002BFF87 /* PokeBatalhaFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = A509425427A4F5E7002BFF87 /* PokeBatalhaFunc.swift */; };
+		A527F1AC2789F86F00FB539C /* trabalho_turmaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527F1AB2789F86F00FB539C /* trabalho_turmaApp.swift */; };
+		A527F1AE2789F86F00FB539C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527F1AD2789F86F00FB539C /* ContentView.swift */; };
+		A527F1B02789F87300FB539C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A527F1AF2789F87300FB539C /* Assets.xcassets */; };
+		A527F1B32789F87300FB539C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A527F1B22789F87300FB539C /* Preview Assets.xcassets */; };
+		A527F1BA2789FB1F00FB539C /* pokedex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527F1B92789FB1E00FB539C /* pokedex.swift */; };
+		A527F1BC2789FB5400FB539C /* pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527F1BB2789FB5400FB539C /* pokemon.swift */; };
+		A53DB19A27974E6500931F51 /* pokemon-logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = A53DB19927974E6500931F51 /* pokemon-logo.gif */; };
+		A53DB19C2797512000931F51 /* poke_intro.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A53DB19B2797512000931F51 /* poke_intro.mp4 */; };
+		A548E733279612CB00953384 /* PokeLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A548E732279612CB00953384 /* PokeLogin.swift */; };
+		A54F7202279F3357009526D2 /* PassarDados.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54F7201279F3357009526D2 /* PassarDados.swift */; };
+		A54F7204279F46E9009526D2 /* PokeVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54F7203279F46E9009526D2 /* PokeVideo.swift */; };
+		A577437527B895DA00E45A46 /* ViewPokeRemove.swift in Sources */ = {isa = PBXBuildFile; fileRef = A577437427B895DA00E45A46 /* ViewPokeRemove.swift */; };
+		A577437727B8D04B00E45A46 /* ViewPokeEditar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A577437627B8D04B00E45A46 /* ViewPokeEditar.swift */; };
+		A578C899278E07D80057520A /* pokedetalhes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A578C898278E07D80057520A /* pokedetalhes.swift */; };
+		A578C89B278E0C2F0057520A /* pokelist.swift in Sources */ = {isa = PBXBuildFile; fileRef = A578C89A278E0C2F0057520A /* pokelist.swift */; };
+		A59F0FB027B3073500406DB1 /* ViewPokeAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59F0FAF27B3073500406DB1 /* ViewPokeAdd.swift */; };
+		A5CEDC9C279350510032AB1F /* ViewPokedex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CEDC9B279350510032AB1F /* ViewPokedex.swift */; };
+		A5CEDC9E2793510D0032AB1F /* ViewBattle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CEDC9D2793510D0032AB1F /* ViewBattle.swift */; };
+		A5FDE3B2279F485B00FE6F9E /* PokeArena.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FDE3B1279F485B00FE6F9E /* PokeArena.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A509425227A4F540002BFF87 /* PokePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokePlayer.swift; sourceTree = "<group>"; };
+		A509425427A4F5E7002BFF87 /* PokeBatalhaFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeBatalhaFunc.swift; sourceTree = "<group>"; };
+		A527F1A82789F86F00FB539C /* trabalho_turma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trabalho_turma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A527F1AB2789F86F00FB539C /* trabalho_turmaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trabalho_turmaApp.swift; sourceTree = "<group>"; };
+		A527F1AD2789F86F00FB539C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A527F1AF2789F87300FB539C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A527F1B22789F87300FB539C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A527F1B92789FB1E00FB539C /* pokedex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokedex.swift; sourceTree = "<group>"; };
+		A527F1BB2789FB5400FB539C /* pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokemon.swift; sourceTree = "<group>"; };
+		A53DB19927974E6500931F51 /* pokemon-logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "pokemon-logo.gif"; sourceTree = SOURCE_ROOT; };
+		A53DB19B2797512000931F51 /* poke_intro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = poke_intro.mp4; sourceTree = "<group>"; };
+		A548E732279612CB00953384 /* PokeLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeLogin.swift; sourceTree = "<group>"; };
+		A54F7201279F3357009526D2 /* PassarDados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassarDados.swift; sourceTree = "<group>"; };
+		A54F7203279F46E9009526D2 /* PokeVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeVideo.swift; sourceTree = "<group>"; };
+		A577437427B895DA00E45A46 /* ViewPokeRemove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPokeRemove.swift; sourceTree = "<group>"; };
+		A577437627B8D04B00E45A46 /* ViewPokeEditar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPokeEditar.swift; sourceTree = "<group>"; };
+		A578C898278E07D80057520A /* pokedetalhes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokedetalhes.swift; sourceTree = "<group>"; };
+		A578C89A278E0C2F0057520A /* pokelist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokelist.swift; sourceTree = "<group>"; };
+		A59F0FAF27B3073500406DB1 /* ViewPokeAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPokeAdd.swift; sourceTree = "<group>"; };
+		A5CEDC9B279350510032AB1F /* ViewPokedex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPokedex.swift; sourceTree = "<group>"; };
+		A5CEDC9D2793510D0032AB1F /* ViewBattle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBattle.swift; sourceTree = "<group>"; };
+		A5FDE3B1279F485B00FE6F9E /* PokeArena.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeArena.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A527F1A52789F86F00FB539C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A527F19F2789F86F00FB539C = {
+			isa = PBXGroup;
+			children = (
+				A527F1AA2789F86F00FB539C /* trabalho_turma */,
+				A527F1A92789F86F00FB539C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A527F1A92789F86F00FB539C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A527F1A82789F86F00FB539C /* trabalho_turma.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A527F1AA2789F86F00FB539C /* trabalho_turma */ = {
+			isa = PBXGroup;
+			children = (
+				A527F1AB2789F86F00FB539C /* trabalho_turmaApp.swift */,
+				A53DB19727974D2000931F51 /* Classes */,
+				A53DB19827974D4F00931F51 /* Views */,
+				A527F1AF2789F87300FB539C /* Assets.xcassets */,
+				A527F1B12789F87300FB539C /* Preview Content */,
+			);
+			path = trabalho_turma;
+			sourceTree = "<group>";
+		};
+		A527F1B12789F87300FB539C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A527F1B22789F87300FB539C /* Preview Assets.xcassets */,
+				A53DB19927974E6500931F51 /* pokemon-logo.gif */,
+				A53DB19B2797512000931F51 /* poke_intro.mp4 */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A53DB19727974D2000931F51 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A527F1B92789FB1E00FB539C /* pokedex.swift */,
+				A578C898278E07D80057520A /* pokedetalhes.swift */,
+				A527F1BB2789FB5400FB539C /* pokemon.swift */,
+				A578C89A278E0C2F0057520A /* pokelist.swift */,
+				A5FDE3B1279F485B00FE6F9E /* PokeArena.swift */,
+				A509425427A4F5E7002BFF87 /* PokeBatalhaFunc.swift */,
+				A509425227A4F540002BFF87 /* PokePlayer.swift */,
+				A54F7201279F3357009526D2 /* PassarDados.swift */,
+				A54F7203279F46E9009526D2 /* PokeVideo.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A53DB19827974D4F00931F51 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A527F1AD2789F86F00FB539C /* ContentView.swift */,
+				A548E732279612CB00953384 /* PokeLogin.swift */,
+				A5CEDC9D2793510D0032AB1F /* ViewBattle.swift */,
+				A59F0FAF27B3073500406DB1 /* ViewPokeAdd.swift */,
+				A5CEDC9B279350510032AB1F /* ViewPokedex.swift */,
+				A577437627B8D04B00E45A46 /* ViewPokeEditar.swift */,
+				A577437427B895DA00E45A46 /* ViewPokeRemove.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A527F1A72789F86F00FB539C /* trabalho_turma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A527F1B62789F87300FB539C /* Build configuration list for PBXNativeTarget "trabalho_turma" */;
+			buildPhases = (
+				A527F1A42789F86F00FB539C /* Sources */,
+				A527F1A52789F86F00FB539C /* Frameworks */,
+				A527F1A62789F86F00FB539C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = trabalho_turma;
+			productName = trabalho_turma;
+			productReference = A527F1A82789F86F00FB539C /* trabalho_turma.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A527F1A02789F86F00FB539C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					A527F1A72789F86F00FB539C = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = A527F1A32789F86F00FB539C /* Build configuration list for PBXProject "trabalho_turma" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A527F19F2789F86F00FB539C;
+			productRefGroup = A527F1A92789F86F00FB539C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A527F1A72789F86F00FB539C /* trabalho_turma */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A527F1A62789F86F00FB539C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A527F1B32789F87300FB539C /* Preview Assets.xcassets in Resources */,
+				A527F1B02789F87300FB539C /* Assets.xcassets in Resources */,
+				A53DB19C2797512000931F51 /* poke_intro.mp4 in Resources */,
+				A53DB19A27974E6500931F51 /* pokemon-logo.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A527F1A42789F86F00FB539C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5CEDC9C279350510032AB1F /* ViewPokedex.swift in Sources */,
+				A54F7202279F3357009526D2 /* PassarDados.swift in Sources */,
+				A577437727B8D04B00E45A46 /* ViewPokeEditar.swift in Sources */,
+				A578C89B278E0C2F0057520A /* pokelist.swift in Sources */,
+				A5CEDC9E2793510D0032AB1F /* ViewBattle.swift in Sources */,
+				A5FDE3B2279F485B00FE6F9E /* PokeArena.swift in Sources */,
+				A548E733279612CB00953384 /* PokeLogin.swift in Sources */,
+				A509425527A4F5E7002BFF87 /* PokeBatalhaFunc.swift in Sources */,
+				A577437527B895DA00E45A46 /* ViewPokeRemove.swift in Sources */,
+				A527F1BA2789FB1F00FB539C /* pokedex.swift in Sources */,
+				A509425327A4F540002BFF87 /* PokePlayer.swift in Sources */,
+				A527F1BC2789FB5400FB539C /* pokemon.swift in Sources */,
+				A54F7204279F46E9009526D2 /* PokeVideo.swift in Sources */,
+				A527F1AE2789F86F00FB539C /* ContentView.swift in Sources */,
+				A59F0FB027B3073500406DB1 /* ViewPokeAdd.swift in Sources */,
+				A527F1AC2789F86F00FB539C /* trabalho_turmaApp.swift in Sources */,
+				A578C899278E07D80057520A /* pokedetalhes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A527F1B42789F87300FB539C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A527F1B52789F87300FB539C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A527F1B72789F87300FB539C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"trabalho_turma/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ivan.trabalho-turma";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A527F1B82789F87300FB539C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"trabalho_turma/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ivan.trabalho-turma";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A527F1A32789F86F00FB539C /* Build configuration list for PBXProject "trabalho_turma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A527F1B42789F87300FB539C /* Debug */,
+				A527F1B52789F87300FB539C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A527F1B62789F87300FB539C /* Build configuration list for PBXNativeTarget "trabalho_turma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A527F1B72789F87300FB539C /* Debug */,
+				A527F1B82789F87300FB539C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A527F1A02789F86F00FB539C /* Project object */;
+}
